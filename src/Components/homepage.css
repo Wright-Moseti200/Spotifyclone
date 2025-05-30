@@ -1,0 +1,112 @@
+.homepage{
+     width:75.5vw;
+      margin-left: 10px;
+    background-color: rgba(128, 128, 128, 0.196);
+    height:90vh;
+     margin-top: 10px;
+     overflow-y: auto;
+     overflow-x: hidden;
+}
+.homepage::-webkit-scrollbar{
+    display: none;
+}
+
+.homepage-content{
+    display: flex;
+    flex-direction: column;
+    width:75.5vw;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.homepage-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homepage-nav img{
+   height: 15px; 
+   width:18px;
+   cursor: pointer;
+}
+
+.homepage-nav div div{
+    background-color: rgba(0, 0, 0, 0.526);
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.homepage-nav2{
+    display: flex;
+    justify-content: space-around;
+    width:350px;
+    align-items: center;
+}
+
+.homepage-nav2 button
+{
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.homepage-nav2 button:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.516);
+    color:white;
+}
+.homepage-nav2 p{
+    background-color: purple;
+    color:black;
+    padding: 5px;
+    border-radius: 50%;
+    width:28px;
+    text-align: center;
+}
+.selection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:220px
+}
+
+.selection p{
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.selection p:nth-child(1){
+    background-color: white;
+    color:black;
+}
+
+.selection p:nth-child(2){
+    background-color: black;
+    color:white;
+}
+
+.selection p:nth-child(3){
+    background-color: black;
+    color:white;
+}
+
+.songslist::-webkit-scrollbar
+{
+display: none;
+}
+
+.song1,.album1{
+    transition: all 0.3s linear;
+    border-radius: 5px;
+}
+.song1:hover,.album1:hover{
+    background-color: rgba(128, 128, 128, 0.256);
+}
